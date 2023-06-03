@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd
 mkdir APPS
 mkdir PROJECTS
 mkdir PDKS

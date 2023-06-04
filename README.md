@@ -18,12 +18,27 @@ The scripts in this repo are:
 
       - **For standalone build**
        
-        - `chmod 775 openlane_script.sh`
-        - `./openlane_script.sh`
+        - `chmod 777 open_source.sh`
+        - `./open_source.sh`
      
       
 5. This script would create following directory structure:
+```bash 
+Home/
+  └── APPS
+  |   └── tools
+  |   ├── cmake-3.13.0
+  |   ├── cmake-3.13.0.tar.gz
+  |   ├── graywolf
+  |   ├── magic-8.3.50
+  |   ├── magic-8.3.50.tgz
+  |   ├── netgen-1.5.134
+  |   ├── netgen-1.5.134.tg
+  └── APPS
+  └── PDKS
+  └── PROJECTS
 
+```
 
 # ACKNOWLEDGMENTS
 

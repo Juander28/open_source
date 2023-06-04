@@ -147,8 +147,8 @@ cd ..
 
 mkdir klayout 
 cd klayout
-wget https://www.klayout.org/downloads/Ubuntu-22/klayout_0.27.11-1_amd64.deb
-sudo apt install -y ./klayout_0.27.11-1_amd64.deb
+wget https://www.klayout.org/downloads/Ubuntu-22/klayout_0.28.8-1_amd64.deb
+sudo apt install -y ./klayout_0.28.8-1_amd64.deb
 cd ..
 
 git clone https://github.com/The-OpenROAD-Project/OpenSTA.git

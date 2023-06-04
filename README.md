@@ -13,8 +13,7 @@ The scripts in this repo are:
 
 1. `git clone https://github.com/Juander28/open_source`
 2. `cd open_source` #switch to root user (or have root user password ready).
-3. Change directory to where openlane_build_script folder was cloned. `chmod 777 openlane_script.sh`
-4. Execute the script as below:
+3. Execute the script as below:
 
       - **For standalone build**
        
@@ -25,18 +24,17 @@ The scripts in this repo are:
 5. This script would create following directory structure:
 ```bash 
 Home/
-  └── APPS
-  |   └── tools
-  |   ├── cmake-3.13.0
-  |   ├── cmake-3.13.0.tar.gz
-  |   ├── graywolf
-  |   ├── magic-8.3.50
-  |   ├── magic-8.3.50.tgz
-  |   ├── netgen-1.5.134
-  |   ├── netgen-1.5.134.tg
-  └── APPS
-  └── PDKS
-  └── PROJECTS
+  └── APPS/
+  ├   └── tools
+  ├   ├── cmake-3.13.0
+  ├   ├── cmake-3.13.0.tar.gz
+  ├   ├── graywolf
+  ├   ├── magic-8.3.50
+  ├   ├── magic-8.3.50.tgz
+  ├   ├── netgen-1.5.134
+  ├   ├── netgen-1.5.134.tg
+  └── PDKS/
+  └── PROJECTS/
 
 ```
 

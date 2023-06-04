@@ -6,7 +6,6 @@ The scripts in this repo are:
  
 # Contents
 - [Steps to build Open Source Tools](#steps-to-build-openlane)
-- [Steps to run Openlane](#steps-to-run-openlane)
 - [Acknowledgments](#acknowledgments)
  
 # STEPS TO BUILD OPENLANE

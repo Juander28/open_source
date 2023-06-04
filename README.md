@@ -12,10 +12,7 @@ The scripts in this repo are:
 
 1. `git clone https://github.com/Juander28/open_source`
 2. `cd open_source` #switch to root user (or have root user password ready).
-3. Execute the script as below:
-
-      - **For standalone build**
-       
+3. Execute the script as below:     
         - `chmod 777 open_source.sh`
         - `./open_source.sh`
      

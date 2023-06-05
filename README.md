@@ -16,22 +16,26 @@ The scripts in this repo are:
         - `chmod 777 open_source.sh`
         - `./open_source.sh`
      
-      
+    
 5. This script would create following directory structure:
 ```bash 
 Home/
   └── APPS/
-  ├   └── tools
-  ├   ├── cmake-3.13.0
-  ├   ├── cmake-3.13.0.tar.gz
+  ├   └── gaw
   ├   ├── graywolf
-  ├   ├── magic-8.3.50
-  ├   ├── magic-8.3.50.tgz
-  ├   ├── netgen-1.5.134
-  ├   ├── netgen-1.5.134.tg
+  ├   ├── irsim
+  ├   ├── klayout
+  ├   ├── magic
+  ├   ├── ngspice
+  ├   ├── netgen
+  ├   ├── OpenSTA
+  ├   ├── qflow
+  ├   ├── qrouter
+  ├   ├── xschem
   └── PDKS/
+  ├   └── open_pdks(SKY130)
   └── PROJECTS/
-
+      └── 2COPY
 ```
 
 # ACKNOWLEDGMENTS

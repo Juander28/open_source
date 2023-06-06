@@ -92,7 +92,7 @@ cd gaw-20110707
 ./configure
 sudo make
 sudo make install
-
+git clone https://github.com/efabless/openlane.git --branch rc6
 cd ..
 cd ..
 
@@ -209,7 +209,7 @@ ln -s /usr/local/share/pdk/sky130A/libs.tech/netgen/sky130A_setup.tcl setup.tcl
 echo "PDK skywater130 configured"
 
 cd
-cd APPS
+
 sudo apt-get update
 sudo apt-get upgrade --assume-yes
 sudo apt install -y build-essential python3 python3-venv python3-pip
@@ -232,5 +232,5 @@ sudo docker run hello-world
 sudo groupadd docker
 sudo usermod -aG docker $USER
 sudo apt install -y python3-pip
-git clone https://github.com/efabless/openlane.git --branch rc6
+git clone https://github.com/The-OpenROAD-Project/OpenLane
 sudo reboot

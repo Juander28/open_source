@@ -1,5 +1,5 @@
 #!/bin/bash
-cd
+
 mkdir APPS
 mkdir PROJECTS
 mkdir PDKS
@@ -92,7 +92,7 @@ cd gaw-20110707
 ./configure
 sudo make
 sudo make install
-git clone https://github.com/efabless/openlane.git --branch rc6
+
 cd ..
 cd ..
 
@@ -150,6 +150,7 @@ cd klayout
 wget https://www.klayout.org/downloads/Ubuntu-22/klayout_0.28.8-1_amd64.deb
 sudo apt install -y ./klayout_0.28.8-1_amd64.deb
 cd ..
+
 
 git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
 cd OpenSTA

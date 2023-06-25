@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd
 mkdir APPS
 mkdir PROJECTS
 mkdir PDKS
@@ -175,7 +175,7 @@ sudo make install
 cd ..
 
 
-
+cd
 cd 
 
 cd PDKS
@@ -192,7 +192,7 @@ cd
 python3 -m pip install --upgrade --user ortools
 
 echo "PDK skywater130 installed"
-
+cd
 cd PROJECTS
 mkdir 2COPY
 cd 2COPY

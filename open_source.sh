@@ -18,6 +18,7 @@ sudo apt install -y cmake qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools \
 sudo apt-get install m4 tcsh csh libx11-dev tcl tk tcl-dev tk-dev libcairo2-dev mesa-common-dev libglu1-mesa-dev libncurses-dev --assume-yes
 
 
+
 sudo apt install -y qtcreator qtbase5-dev qt5-qmake cmake --assume-yes
 
 

@@ -11,7 +11,7 @@ The scripts in this repo are:
 # STEPS TO BUILD OPENLANE
 1.`sudo apt-get install git`\
 2. `git clone https://github.com/Juander28/open_source`\
-3. `cd open_source` #switch to root user (or have root user password ready).\
+3. `cd open_source`\
 4. Execute the script as below:     
         - `chmod 777 open_source.sh`\
         - `./open_source.sh`

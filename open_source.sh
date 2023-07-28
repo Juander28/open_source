@@ -187,11 +187,16 @@ sudo make install
 cd ..
 cd ..
 cd
-
+sudo apt-get update
 
 python3 -m pip install --upgrade --user ortools
 sudo apt-get install make python3 python3-pip
 pip install cocotb
+sudo apt-get install autoconf --assume-yes
+sudo apt-get install lib32readline lib32readline-dev --assume-yes
+sudo apt-get install gperf --assume-yes
+sudo apt-get update --assume-yes
+
 echo "PDK skywater130 installed"
 cd
 cd PROJECTS

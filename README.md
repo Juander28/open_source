@@ -32,6 +32,9 @@ Home/
   ├   ├── qflow
   ├   ├── qrouter
   ├   ├── xschem
+  ├   ├── iverilog
+  ├   ├── gtkwave
+  ├   ├── cocotb
   └── PDKS/
   ├   └── open_pdks(SKY130)
   └── PROJECTS/

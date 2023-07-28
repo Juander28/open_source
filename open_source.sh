@@ -190,7 +190,8 @@ cd
 
 
 python3 -m pip install --upgrade --user ortools
-
+sudo apt-get install make python3 python3-pip
+pip install cocotb
 echo "PDK skywater130 installed"
 cd
 cd PROJECTS

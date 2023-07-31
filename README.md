@@ -8,7 +8,7 @@ The scripts in this repo are:
 - [Steps to build Open Source Tools](#steps-to-build-openlane)
 - [Acknowledgments](#acknowledgments)
  
-# STEPS TO BUILD THE SCRIPT
+# STEPS TO EXECUTE THE SCRIPT
 1.`sudo apt-get install git`\
 2. `git clone https://github.com/Juander28/open_source`\
 3. `cd open_source`\

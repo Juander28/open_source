@@ -1,12 +1,12 @@
 # Open Source Tools Build
-This script builds openlane and all its dependencies on an Ubuntu (only) System.
+this script installs open source tools to design in VLSI and all its dependencies on an Ubuntu (only) System.
 The scripts in this repo are:
  - open_source.sh
 
  
 # Contents
 - [Steps to build Open Source Tools](#steps-to-build-openlane)
-- [Acknowledgments](#acknowledgments)
+  
  
 # STEPS TO EXECUTE THE SCRIPT
 1.`sudo apt-get install git`\
@@ -41,6 +41,3 @@ Home/
       └── 2COPY
 ```
 
-# ACKNOWLEDGMENTS
-
--[efabless openlane team](https://github.com/efabless/openlane)

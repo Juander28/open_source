@@ -21,20 +21,10 @@ The scripts in this repo are:
 ```bash 
 Home/
   └── APPS/
-  ├   └── gaw
-  ├   ├── graywolf
-  ├   ├── irsim
-  ├   ├── klayout
   ├   ├── magic
   ├   ├── ngspice
   ├   ├── netgen
-  ├   ├── OpenSTA
-  ├   ├── qflow
-  ├   ├── qrouter
   ├   ├── xschem
-  ├   ├── iverilog
-  ├   ├── gtkwave
-  ├   ├── cocotb
   └── PDKS/
   ├   └── open_pdks(SKY130)
   └── PROJECTS/

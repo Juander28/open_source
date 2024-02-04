@@ -110,69 +110,6 @@ cd ..
 echo "netgen installed"
 
 
-wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add -
-sudo apt-add-repository "deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-6.0 main" -y 
-sudo apt-get update 
-sudo apt-get install -y clang-6.0 --assume-yes
-sudo apt-get install gsl-bin libgsl0-dev --assume-yes
-sudo add-apt-repository ppa:saltmakrell/ppa -y 
-sudo apt-get update
-sudo apt-get install yosys --assume-yes
-git clone https://github.com/rubund/graywolf.git
-cd graywolf/
-mkdir build
-cd build
-cmake ..
-sudo make
-sudo make install
-cd ../../
-
-git clone git://opencircuitdesign.com/qrouter
-
-cd qrouter
-sudo ./configure 
-sudo make
-sudo make install 
-cd ..
-
-
-git clone git://opencircuitdesign.com/qflow 
-cd qflow
-
-./configure
-sudo make
-sudo make install
-
-
-cd ..
-
-mkdir klayout 
-cd klayout
-wget https://www.klayout.org/downloads/Ubuntu-22/klayout_0.28.8-1_amd64.deb
-sudo apt install -y ./klayout_0.28.8-1_amd64.deb
-cd ..
-
-
-git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
-cd OpenSTA
-mkdir build
-cd build
-cmake ..
-make
-cd ../
-sudo ln -s $PWD/app/sta /usr/bin/sta
-cd ../
-sudo apt-get install tcllib --assume-yes
-
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y
-sudo apt-get update
-
-git clone git://opencircuitdesign.com/irsim
-cd irsim
-./configure
-sudo make
-sudo make install
-cd ..
 
 
 cd

@@ -10,7 +10,7 @@ The scripts in this repo are:
  
 # STEPS TO EXECUTE THE SCRIPT
 1.`sudo apt-get install git`\
-2. `git clone https://github.com/Juander28/open_source/tree/VLSI`\
+2. `git clone https://github.com/Juander28/open_source`\
 3. `cd open_source`\
 4. Execute the script as below:     
         - `chmod 777 open_source.sh`\
